@@ -82,4 +82,5 @@ def plot_map2(
     ax.set_xlim(grid_data.node["lon"].min() - 1, grid_data.node["lon"].max() + 1)
     ax.set_ylim(grid_data.node["lat"].min() - 1, grid_data.node["lat"].max() + 1)
     ax.set(xlabel=None, ylabel=None)
+    plt.show()
     return

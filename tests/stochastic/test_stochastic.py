@@ -79,7 +79,7 @@ def test_stochastic_ph(tmp_path):
 @pytest.mark.skipif(not pyo.SolverFactory("glpk").available(), reason="Skipping test because GLPK is not available.")
 def test_stochastic_ph_mpi(tmp_path):
     mpiexec_arg = ""
-    progname = Path(__file__).absolute().parent / "northsea.py"
+    progname = Path(__file__).absolute().parent / "test_change_data.py"
     np = 4  # need a licence per progrm (only have 1 for gurobi)
     argstring = tmp_path
     runstring_ph = f"mpiexec {mpiexec_arg} -np {np} python -m mpi4py {progname} {argstring} --with-display-progress"

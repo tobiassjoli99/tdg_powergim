@@ -1,0 +1,7 @@
+node,demand_avg,demand_ref,emission_cap,comment
+NO_main,48854.48681640625,demand_NO,1000000000.0,
+DK_main,16975.370361328125,demand_DK,1000000000.0,
+DE_main,109344.125,demand_DE,1000000000.0,
+NL_main,25519.84375,demand_NL,1000000000.0,
+BE_main,16188.2255859375,demand_BE,1000000000.0,
+UK_main,72166.15625,demand_UK,1000000000.0,

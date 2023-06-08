@@ -411,4 +411,5 @@ def plotBranchData(sip_model, model, stage=2):
 
     df_branch.groupby("branch")["flow12"].plot.bar(stacked=True)
 
+
     return df_branch

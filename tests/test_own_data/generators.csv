@@ -1,0 +1,11 @@
+desc,type,node,capacity_2030,capacity_2040,expand_2030,expand_2040,pmin,allow_curtailment,fuelcost,fuelcost_ref,pavg,inflow_fac,inflow_ref,cost_scaling,p_maxNew,storage_cap,storage_price,storage_ini,storval_filling_ref,storval_time_ref,pump_cap,pump_efficiency,pump_deadband
+NO_coast,alt,NO_coast,100000,0,0,0,0,1,1,const,0,1,const,1,0,0,,,,,,,
+NO_wind_1,wind,NO_wind_1,1000,0,0,0,0,1,1,const,0,1,const,1,0,0,,,,,,,
+NO_wind_2,wind,NO_wind_2,2000,0,0,0,0,1,1,const,0,1,const,1,0,0,,,,,,,
+UK_coast_1,wind,UK_coast_1,100000,0,0,0,0,1,1,const,0,1,const,1,0,0,,,,,,,
+UK_wind_1,wind,UK_wind_1,100000,0,0,0,0,1,1,const,0,1,const,1,0,0,,,,,,,
+DK_coast_1,alt,DK_coast_1,10000,0,0,0,0,1,1,const,0,1,const,1,0,0,,,,,,,
+DK_wind,wind,DK_wind,200000,0,0,0,0,1,1,const,0,1,const,1,0,0,,,,,,,
+DE_wind,wind,DE_wind,50000,0,0,0,0,1,1,const,0,1,const,1,0,0,,,,,,,
+
+
