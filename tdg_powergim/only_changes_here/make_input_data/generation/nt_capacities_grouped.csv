@@ -1,0 +1,53 @@
+Node,Fuel,Value
+BE,Biofuels,354.0
+BE,Gas,8731.0
+BE,Hydro,1372.0
+BE,Oil,158.0
+BE,Other Non RES,1379.0
+BE,Other RES,549.0
+BE,Solar,10400.0
+BE,Wind Offshore,5800.0
+BE,Wind Onshore,4669.0
+DE,Coal & Lignite,17042.0
+DE,Gas,25898.0
+DE,Hydro,15055.0
+DE,Oil,851.0
+DE,Other Non RES,9871.0
+DE,Other RES,7570.0
+DE,Solar,96140.0
+DE,Wind Offshore,23632.0
+DE,Wind Onshore,75372.0
+DK,Biofuels,2085.0
+DK,Gas,1324.0
+DK,Oil,816.0
+DK,Other Non RES,340.0
+DK,Other RES,155.0
+DK,Solar,6467.0
+DK,Wind Offshore,6830.0
+DK,Wind Onshore,6157.0
+NL,Biofuels,650.0
+NL,Gas,10615.0
+NL,Hydro,38.0
+NL,Nuclear,486.0
+NL,Other Non RES,3817.0
+NL,Other RES,600.0
+NL,Solar,27264.0
+NL,Wind Offshore,11470.0
+NL,Wind Onshore,7976.0
+NO,Hydro,33361.0
+NO,Other Non RES,265.0
+NO,Other RES,0.0
+NO,Solar,600.0
+NO,Wind Offshore,200.0
+NO,Wind Onshore,6060.0
+UK,Biofuels,18.0
+UK,Coal & Lignite,3392.0
+UK,Gas,19802.0
+UK,Hydro,4839.0
+UK,Nuclear,9328.0
+UK,Oil,460.0
+UK,Other Non RES,7442.0
+UK,Other RES,6422.0
+UK,Solar,23408.0
+UK,Wind Offshore,34750.0
+UK,Wind Onshore,26590.0

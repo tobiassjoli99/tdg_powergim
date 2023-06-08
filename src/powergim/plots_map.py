@@ -385,3 +385,4 @@ class FeatureCollection(folium.map.FeatureGroup):
             })();
             {% endmacro %}"""
         )
+

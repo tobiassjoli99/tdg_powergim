@@ -1,0 +1,117 @@
+nodetype:
+    ac: { L: 1, S: 50e6, Lp: 0, Sp: 0 }
+    hvdc: { L: 1, S: 406e6, Lp: 0, Sp: 0 }
+    pli: { L: 1, S: 150e7, Lp: 0, Sp: 0 }
+
+branchtype:
+    ac:
+        B: 312e3
+        Bdp: 1.416e3
+        Bd: 1193e3
+        CL: 1562e3
+        CLp: 0
+        CS: 4813e3
+        CSp: 0
+        max_cap: 400
+        loss_fix: 0
+        loss_slope: 5e-5
+    dcmesh:
+        B: 312e3
+        Bdp: 0.578e3
+        Bd: 1236e3
+        CL: 1562
+        CLp: 0
+        CS: 4813e3
+        CSp: 0
+        max_cap: 2000
+        loss_fix: 0
+        loss_slope: 3e-5
+    dcmesh_conv:
+        B: 312e3
+        Bdp: 0.578e3
+        Bd: 1236e3
+        CL: 28323e3
+        CLp: 0
+        CS: 4813e3
+        CSp: 0
+        max_cap: 2000
+        loss_fix: 0
+        loss_slope: 3e-5
+    dcdirect:
+        B: 312e3
+        Bdp: 0.578e3
+        Bd: 1236e3
+        CL: 58209e3
+        CLp: 93.2e3
+        CS: 452499e3
+        CSp: 107.8e3
+        max_cap: 2000
+        loss_fix: 0.032
+        loss_slope: 3e-5
+    conv:
+        B: 0
+        Bdp: 0
+        Bd: 0
+        CL: 28323e3
+        CLp: 46.6e3
+        CS: 20843e3
+        CSp: 53.9e3
+        max_cap: 2000
+        loss_fix: 0.016
+        loss_slope: 0
+    ac_ohl:
+        B: 0
+        Bdp: 0.394e3
+        Bd: 1187e3
+        CL: 1562e3
+        CLp: 0
+        CS: 0
+        CSp: 0
+        max_cap: 4000
+        loss_fix: 0
+        loss_slope: 3e-5
+gentype:
+    bio:
+        CX: 124150
+        CO2: 0
+    gas:
+        CX: 35025
+        CO2: 0.4215
+    hard_coal:
+        CX: 93401
+        CO2: 0.8605
+    hydro:
+        CX: 109250
+        CO2: 0
+    lignite:
+        CX: 110000
+        CO2: 0.9
+    nuclear:
+        CX: 233503
+        CO2: 0
+    oil:
+        CX: 53200
+        CO2: 0.7167
+    solar:
+        CX: 76983
+        CO2: 0
+    onshore_wind:
+        CX: 84205
+        CO2: 0
+    wind:
+        CX: 156000
+        CO2: 0
+    other_res:
+        CX: 85000
+        CO2: 0
+    other_non_res:
+        CX: 85000
+        CO2: 0.2
+parameters:
+    investment_years: [2030]
+    finance_interest_rate: 0.05
+    finance_years: 30
+    operation_maintenance_rate: 0.02
+    CO2_price: 78
+    load_shed_penalty: 10000 # very high value of lost load (loadshedding penalty)
+    profiles_period_suffix: False # Use same profiles for all operating periods
